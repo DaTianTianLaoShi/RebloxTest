@@ -73,9 +73,9 @@
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<CoordinateFrame name="CFrame">
-					<X>23.188015</X>
-					<Y>36.7385521</Y>
-					<Z>31.0273514</Z>
+					<X>-8.07759571</X>
+					<Y>150.363403</Y>
+					<Z>212.200302</Z>
 					<R00>1</R00>
 					<R01>0</R01>
 					<R02>-0</R02>
@@ -91,9 +91,9 @@
 				<float name="FieldOfView">70</float>
 				<token name="FieldOfViewMode">0</token>
 				<CoordinateFrame name="Focus">
-					<X>23.188015</X>
-					<Y>16.7385521</Y>
-					<Z>6.02735233</Z>
+					<X>-8.07759571</X>
+					<Y>149.114014</Y>
+					<Z>210.638565</Z>
 					<R00>1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -577,17 +577,6 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="ModuleScript" referent="RBXB9FDED52B72A492A8846BC2C5BDDDDDB">
-					<Properties>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<Content name="LinkedSource"><null></null></Content>
-						<string name="Name">init.server copy</string>
-						<string name="ScriptGuid">{B4B6197B-D3CC-4365-89F5-7C2EA52E9ACE}</string>
-						<ProtectedString name="Source">print(&quot;Hello world, from server!&quot;)</ProtectedString>
-						<int64 name="SourceAssetId">-1</int64>
-						<BinaryString name="Tags"></BinaryString>
-					</Properties>
-				</Item>
 				<Item class="ModuleScript" referent="RBXD27553E0AFD5435D837459F9A9FD6EB4">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -595,6 +584,49 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<string name="Name">init.initText</string>
 						<string name="ScriptGuid">{11FC3831-C5AF-4038-960D-04A6A271590D}</string>
 						<ProtectedString name="Source">local doit=000</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBX4B02536B30A4421491FAE59DC49AC9DB">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">ppp</string>
+						<string name="ScriptGuid">{9119A79E-1E2C-4A61-85A3-F56A0FF343AE}</string>
+						<ProtectedString name="Source">print(&quot;Hello world, from server!&quot;)</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Folder" referent="RBX30D5997EF7CF407F9393EE7E8AD42B63">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<string name="Name">Client</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="ModuleScript" referent="RBXA0D0EB31653B4B2083BBF32F1BFA3CBD">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">init.initText</string>
+						<string name="ScriptGuid">{E3669785-46BC-4312-8B86-799CC80A2739}</string>
+						<ProtectedString name="Source">local doit=000</ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBXA505906BC4964CB586134AE9ED45F670">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">ppp</string>
+						<string name="ScriptGuid">{86FD7357-4582-4713-B1E5-9626EF3A0FA2}</string>
+						<ProtectedString name="Source">print(&quot;Hello world, from server!&quot;)</ProtectedString>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
@@ -792,31 +824,32 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
 		</Item>
-		<Item class="Folder" referent="RBXCB79C3D2584B4F529FCA4391E9E292B5">
+		<Item class="Folder" referent="RBXE6D1D8800569489883C35976AFD23AB2">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">Server</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="ModuleScript" referent="RBXEEA8C982816842CEBFE26FDA8CA6FEE8">
+			<Item class="ModuleScript" referent="RBXC8EB73B692C747E48A3CCEDA3E19482A">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
-					<string name="Name">init.initText copy</string>
-					<string name="ScriptGuid">{484746BB-F751-4FF6-BD4F-2CD8871FC410}</string>
+					<string name="Name">init. server</string>
+					<string name="ScriptGuid">{CE0BB9AE-882B-450E-B9CD-AF72C2D638D5}</string>
 					<ProtectedString name="Source">local doit=000</ProtectedString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX30344B65B729445F9333415F026E35F0">
+			<Item class="LocalScript" referent="RBX5900BFBE83CC4A29A457B1429BBF72C1">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
+					<bool name="Disabled">false</bool>
 					<Content name="LinkedSource"><null></null></Content>
-					<string name="Name">init.ddd</string>
-					<string name="ScriptGuid">{67FA11F5-85ED-4A4A-A823-D1089F47749C}</string>
-					<ProtectedString name="Source"></ProtectedString>
+					<string name="Name">table</string>
+					<string name="ScriptGuid">{DEA81453-8457-4A34-8009-A3F2978C9072}</string>
+					<ProtectedString name="Source">--hello</ProtectedString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
@@ -852,7 +885,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<string name="Name">Hello</string>
 					<string name="ScriptGuid">{62088A07-10E8-40C7-A3C1-02CF043CA511}</string>
 					<ProtectedString name="Source"><![CDATA[return function()
-	print("Hello, world!")
+	print("Hello, world!")---234234
 end]]></ProtectedString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
